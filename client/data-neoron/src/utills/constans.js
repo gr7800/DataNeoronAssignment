@@ -1,1 +1,1 @@
-export const BaseUrl = 'http://localhost:8080/dataneuron'
+export const BaseUrl = 'https://dataneoron.onrender.com/dataneuron'

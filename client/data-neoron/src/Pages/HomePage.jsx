@@ -27,6 +27,7 @@ const HomePage = () => {
       // Dispatch action to add product
       await dispatch(addProduct(productData));
       // Show toast message on successful addition of product
+      dispatch(getAllProducts());
       toast.success('Product added successfully!');
     } catch (error) {
       // Show toast message on error
